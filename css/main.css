@@ -281,7 +281,7 @@ body {
   background-color: #1a1a1a;
   transform: scaleX(-1);
   background-size: cover;
-  background-position: 25% 20%;
+  background-position: 50% 20%;
   /* Figma: col2 clip content enabled */
   overflow: hidden;
 }
