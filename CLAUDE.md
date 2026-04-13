@@ -6,13 +6,13 @@ Notes for Claude instances working in this folder.
 
 This folder contains the source for the **AI Orchestration** landing page (part of Nutt Labs Circle). The site promotes William Nutt's Distilled AI Coaching program.
 
-Folder layout for the AI site inside `/orchestration`:
+Folder layout for the AI site inside `/ai-orchestration`:
 
-- `/orchestration/index.html`, `/orchestration/privacy.html`, `/orchestration/terms.html` — the live HTML pages inside the site directory
-- `/orchestration/css/` — `main.css` (main site) and `legal.css` (privacy/terms pages)
-- `/orchestration/js/` — `main.js`
-- `/orchestration/assets/` — images, logos, SVGs, and the OG image
-- `/orchestration/reference/` — reference materials (design screenshots, legal markdown drafts). Not part of the deployed site.
+- `/ai-orchestration/index.html`, `/ai-orchestration/privacy.html`, `/ai-orchestration/terms.html` — the live HTML pages inside the site directory
+- `/ai-orchestration/css/` — `main.css` (main site) and `legal.css` (privacy/terms pages)
+- `/ai-orchestration/js/` — `main.js`
+- `/ai-orchestration/assets/` — images, logos, SVGs, and the OG image
+- `/ai-orchestration/reference/` — reference materials (design screenshots, legal markdown drafts). Not part of the deployed site.
 
 ## Deploying ("deploy the site")
 
