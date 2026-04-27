@@ -17,3 +17,21 @@ function switchTab(tab) {
   document.querySelectorAll('.tab')[0].classList.add('active');
   document.getElementById('tab-' + tab).classList.add('active');
 }
+
+(function () {
+  document.querySelectorAll('.accordion-trigger').forEach(function (trigger) {
+    trigger.addEventListener('click', function () {
+      var expanded = trigger.getAttribute('aria-expanded') === 'true';
+      var panelId = trigger.getAttribute('aria-controls');
+      var panel = panelId ? document.getElementById(panelId) : null;
+      trigger.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      if (panel) {
+        if (expanded) {
+          panel.setAttribute('hidden', '');
+        } else {
+          panel.removeAttribute('hidden');
+        }
+      }
+    });
+  });
+})();

@@ -2,6 +2,10 @@
 
 Notes for Claude instances working in this folder.
 
+## Companion reference
+
+For the **program architecture** (Airtable base, Stripe integration, referral mechanics, email system, pricing, launch state), read [`CIRCLE.md`](./CIRCLE.md) before touching anything beyond pure landing-page work.
+
 ## Project
 
 This folder contains the source for the **AI Orchestration** landing page (part of Nutt Labs Circle). The site promotes William Nutt's Distilled AI Coaching program.
