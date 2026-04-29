@@ -67,6 +67,7 @@
   --ls-tighter:   -0.02em;
   --ls-tightest:  -0.03em;
   --ls-display:   -0.02em;
+  -webkit-font-smoothing: antialiased;
 }
 
 * {
@@ -80,7 +81,6 @@ body {
   letter-spacing: 0.04px;
   background: var(--bg-deep);
   color: var(--paper);
-  -webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -639,7 +639,7 @@ h4 {
 .circle-title {
   font-family: var(--font-display);
   font-size: 28px;
-  font-weight: var(--fw-regular);
+  font-weight: var(--fw-medium);
   font-style: italic;
   color: var(--ink);
   margin-bottom: 14px;
@@ -743,8 +743,7 @@ h4 {
 
 .circle-subheader,
 .pricing-subheader {
-  font-family: var(--font-display);
-  font-style: italic;
+  font-family: var(--font-ui);
   font-weight: var(--fw-regular);
   line-height: 1.45;
   margin: 12px auto 44px;
@@ -1052,16 +1051,17 @@ h4 {
    ============================================= */
 @media (max-width: 767px) {
   :root {
-    --section-padding: 68px 24px;
+    --section-padding: 68px 28px;
     --fs-body-lg: 22px;
     --fs-body: 17px;
     --fs-body-md: 16px;
     --fs-subhead: 28px;
+    --lh-display: 1.15;
   }
 
   h1 {
-    font-size: clamp(47px, 14vw, 64px);
-    line-height: 0.94;
+    font-size: 48px;
+    line-height: 1.11;
   }
 
   h2 {
@@ -1080,15 +1080,18 @@ h4 {
   /* --- HERO --- */
 
   .hero-section {
-    height: 100svh;
-    min-height: 640px;
-    padding: 0 24px;
-    justify-content: center;
+    height: 100vh;
+    padding: 100px 28px 0;
     overflow: hidden;
   }
 
-  .hero-bg {
-    background-position: 54% 0;
+  .hero-bg::after {
+    background: linear-gradient(
+      180deg,
+      rgba(5, 15, 27, 0.2) 55%,
+      rgba(2, 8, 15, 0.65) 85%,
+      var(--bg-deep) 100%
+    );
   }
 
   .hero-header {
@@ -1114,7 +1117,7 @@ h4 {
 
   .hero-subtitle {
     --subtitle__lineHeight: 1.24em;
-    font-size: 19px;
+    font-size: 18px;
     color: var(--paper-soft);
     max-width: 320px;
   }
@@ -1143,7 +1146,7 @@ h4 {
   }
 
   .bio-text {
-    padding: 64px 24px 56px;
+    padding: 64px 28px 56px;
     gap: 24px;
   }
 
@@ -1153,7 +1156,7 @@ h4 {
 
   .bio-body,
   .bio-closing {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.62;
   }
 
@@ -1161,7 +1164,7 @@ h4 {
     gap: 20px;
     padding-left: 0;
     padding-right: 0;
-    margin: 6px 0;
+    margin: 12px 0;
   }
 
   .bio-quote {
@@ -1201,7 +1204,7 @@ h4 {
   }
 
   .workshop-subheader {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.35;
     margin-bottom: 34px;
   }
@@ -1240,7 +1243,11 @@ h4 {
 
   .circle-header-row {
     flex-direction: column-reverse;
-    gap: 20px;
+    gap: 22px;
+  }
+
+  .circle-logo {
+    height: 20px;
   }
 
   .circle-header-divider {
@@ -1269,7 +1276,7 @@ h4 {
   }
 
   .circle-subheader {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.42;
     max-width: 23rem;
     margin-bottom: 44px;
@@ -1294,7 +1301,7 @@ h4 {
   }
 
   .circle-title {
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 10px;
   }
 
@@ -1313,11 +1320,11 @@ h4 {
   }
 
   .pricing-header {
-    font-size: clamp(42px, 12vw, 54px);
+    font-size: 44px;
   }
 
   .pricing-subheader {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.42;
     max-width: 23rem;
     margin-bottom: 36px;
@@ -1370,7 +1377,7 @@ h4 {
   }
 
   .features-heading {
-    font-size: 24px;
+    font-size: 28px;
     white-space: normal;
     padding-right: 0;
     margin-bottom: 12px;
