@@ -21,6 +21,13 @@ function switchTab(tab) {
 (function () {
   document.querySelectorAll('.accordion-trigger').forEach(function (trigger) {
     trigger.addEventListener('click', function () {
+      var scrollX = window.scrollX;
+      var scrollY = window.scrollY;
+      function restoreScroll() {
+        if (Math.abs(window.scrollY - scrollY) > 1) {
+          window.scrollTo(scrollX, scrollY);
+        }
+      }
       var expanded = trigger.getAttribute('aria-expanded') === 'true';
       var panelId = trigger.getAttribute('aria-controls');
       var panel = panelId ? document.getElementById(panelId) : null;
@@ -32,6 +39,10 @@ function switchTab(tab) {
           panel.removeAttribute('hidden');
         }
       }
+      requestAnimationFrame(function () {
+        restoreScroll();
+        requestAnimationFrame(restoreScroll);
+      });
     });
   });
 })();
