@@ -139,7 +139,7 @@ h5,
 h6 {
   font-family: var(--font-ui);
   font-weight: 300;
-  letter-spacing: -0.018em;
+  letter-spacing: -0.019em;
   line-height: 1.06;
   color: inherit;
 }
@@ -245,7 +245,7 @@ h6 {
 .hero__headline {
   font-family: var(--font-ui);
   font-size: 96px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.06;
   color: var(--ink);
   text-wrap: balance;
@@ -1097,6 +1097,7 @@ h6 {
   .hero__headline {
     font-size: 50px;
     margin-bottom: 15px;
+    font-weight: 500;
   }
 
   .hero__sub-l1,
@@ -1175,7 +1176,6 @@ h6 {
   .workshop-header {
     font-size: 38px;
     margin-bottom: 3px;
-    font-weight: 500;
   }
 
   .circle-header {
