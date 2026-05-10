@@ -447,6 +447,7 @@ h6 {
 .workshop-header {
   font-size: 70px;
   margin-bottom: 12px;
+  font-weight: 400;
 }
 
 .workshop-subheader {
@@ -1174,6 +1175,7 @@ h6 {
   .workshop-header {
     font-size: 38px;
     margin-bottom: 3px;
+    font-weight: 500;
   }
 
   .circle-header {
