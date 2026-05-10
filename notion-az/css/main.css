@@ -139,7 +139,7 @@ h5,
 h6 {
   font-family: var(--font-ui);
   font-weight: 300;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.018em;
   line-height: 1.06;
   color: inherit;
 }
@@ -245,7 +245,7 @@ h6 {
 .hero__headline {
   font-family: var(--font-ui);
   font-size: 96px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.06;
   color: var(--ink);
   text-wrap: balance;
@@ -445,7 +445,7 @@ h6 {
 }
 
 .workshop-header {
-  font-size: 76px;
+  font-size: 70px;
   margin-bottom: 12px;
 }
 
@@ -582,7 +582,7 @@ h6 {
 }
 
 .circle-header {
-  font-size: 60px;
+  font-size: 56px;
 }
 
 .circle-logo {
@@ -950,7 +950,7 @@ h6 {
 .cta-button {
   display: inline-block;
   padding: 22px 53px;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 600;
   color: var(--white);
   background: var(--gradient);
@@ -1095,9 +1095,6 @@ h6 {
 
   .hero__headline {
     font-size: 50px;
-    letter-spacing: -0.15px;
-    font-weight: 400;
-    line-height: 1.08;
     margin-bottom: 15px;
   }
 
@@ -1195,7 +1192,7 @@ h6 {
   }
 
   .workshop-subheader {
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 30px;
   }
 
