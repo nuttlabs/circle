@@ -115,6 +115,14 @@ a {
   transition: color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
+.accent-link {
+  color: var(--ink);
+}
+
+.accent-link:hover {
+  color: var(--accent);
+}
+
 .hero__eyebrow {
   text-decoration: none;
 }
