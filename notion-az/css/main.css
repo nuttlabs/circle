@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'DS Indigo';
-  src: url('../assets/DSIndigo-Regular.woff2') format('woff2');
+  src: url('../../assets/DSIndigo-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'DS Indigo';
-  src: url('../assets/dsindigo-light.woff2') format('woff2');
+  src: url('../../assets/dsindigo-light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'DS Indigo';
-  src: url('../assets/DSIndigo-Medium.woff2') format('woff2');
+  src: url('../../assets/DSIndigo-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: 'DS Indigo';
-  src: url('../assets/DSIndigo-Semibold.woff2') format('woff2');
+  src: url('../../assets/DSIndigo-Semibold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: 'DS Indigo';
-  src: url('../assets/DSIndigo-Bold.woff2') format('woff2');
+  src: url('../../assets/DSIndigo-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -43,7 +43,7 @@
 
 @font-face {
   font-family: 'DS Indigo';
-  src: url('../assets/dsindigo-lightitalic.woff2') format('woff2');
+  src: url('../../assets/dsindigo-lightitalic.woff2') format('woff2');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -115,6 +115,10 @@ a {
   transition: color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
+.hero__eyebrow {
+  text-decoration: none;
+}
+
 button {
   font: inherit;
 }
@@ -173,7 +177,7 @@ h6 {
 .hero__bg {
   position: absolute;
   inset: 0;
-  background: url('../assets/notion-a-to-z_hero.png') center center / cover no-repeat;
+  background: url('../../assets/notion-a-to-z_hero.png') center center / cover no-repeat;
   z-index: 0;
 }
 
@@ -245,8 +249,9 @@ h6 {
 .hero__headline {
   font-family: var(--font-ui);
   font-size: 96px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.06;
+  letter-spacing: -0.025em;
   color: var(--ink);
   text-wrap: balance;
   margin-bottom: 18px;
@@ -445,9 +450,9 @@ h6 {
 }
 
 .workshop-header {
-  font-size: 70px;
+  font-size: 62px;
   margin-bottom: 12px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .workshop-subheader {
@@ -583,7 +588,7 @@ h6 {
 }
 
 .circle-header {
-  font-size: 56px;
+  font-size: 54px;
 }
 
 .circle-logo {
@@ -606,7 +611,7 @@ h6 {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.45;
-  margin: 12px auto 56px;
+  margin: 15px auto 56px;
   max-width: 660px;
   color: var(--ink-muted);
 }
@@ -701,7 +706,7 @@ h6 {
 }
 
 .pricing-header {
-  font-size: 53px;
+  font-size: 51px;
 }
 
 .tabs {
@@ -952,7 +957,7 @@ h6 {
   display: inline-block;
   padding: 22px 53px;
   font-size: 23px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--white);
   background: var(--gradient);
   border: none;
@@ -1097,7 +1102,6 @@ h6 {
   .hero__headline {
     font-size: 50px;
     margin-bottom: 15px;
-    font-weight: 500;
   }
 
   .hero__sub-l1,

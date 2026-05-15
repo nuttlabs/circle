@@ -166,7 +166,7 @@ h4 {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('../assets/under-the-sea.jpg');
+  background-image: url('../../assets/under-the-sea.jpg');
   background-color: var(--bg-hero);
   background-size: cover;
   background-position: 40% 0;

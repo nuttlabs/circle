@@ -18,7 +18,7 @@ He equipped users with practical insights and premium resources, honed his viral
 > **Ivan Zhao**  
 > Founder and CEO, Notion
 
-With Notion A-to-Z, William is making his guidance more accessible, practical, and current through ongoing workshops and unlimited access to Bulletproof and other premium resources.
+With <a href="https://circle.nutt.ai/notion-az" target="_blank" rel="noopener noreferrer">Notion A-to-Z</a>, William is making his guidance more accessible, practical, and current through ongoing workshops and unlimited access to Bulletproof and other premium resources.
 
 ---
 
@@ -30,7 +30,7 @@ With Notion A-to-Z, William is making his guidance more accessible, practical, a
 
 Mastering Notion starts with your mindset. Through his work with users, collaborations with the Notion team, and countless hours of tinkering in his own workspaces, William established a set of principles for learning and applying Notion.
 
-Those principles will underpin every Notion A-to-Z workshop, and William will review them frequently to keep them front of mind.
+Those principles will underpin every <a href="https://circle.nutt.ai/notion-az" target="_blank" rel="noopener noreferrer">Notion A-to-Z</a> workshop, and William will review them frequently to keep them front of mind.
 
 ### Master the fundamentals.
 
@@ -42,7 +42,7 @@ Throughout his demonstrations, William will explain his actions so members under
 
 Members will have exclusive access to the upcoming version of William’s acclaimed Bulletproof framework, which will infuse Notion’s latest features and, for the first time, include adaptations for other database and spreadsheet apps, including Airtable and Google Sheets.
 
-In Notion A-to-Z workshops, William will rebuild components and demonstrate how to expand the system with new master databases, including many he uses in his own workflow.
+In <a href="https://circle.nutt.ai/notion-az" target="_blank" rel="noopener noreferrer">Notion A-to-Z</a> workshops, William will rebuild components and demonstrate how to expand the system with new master databases, including many he uses in his own workflow.
 
 Along the way, he’ll reinforce his core principles and Notion fundamentals until they click, giving members the foundation to apply them for their unique needs.
 
@@ -66,7 +66,7 @@ Agents can help build your system, populate content, and reference information a
 
 ### Keep pace with Notion.
 
-Notion is evolving at light speed. The reimagined format of Notion A-to-Z is designed to stay current as the team adds new features and novel strategies emerge. William will regularly recap those features and demonstrate how to incorporate them into your existing systems.
+Notion is evolving at light speed. The reimagined format of <a href="https://circle.nutt.ai/notion-az" target="_blank" rel="noopener noreferrer">Notion A-to-Z</a> is designed to stay current as the team adds new features and novel strategies emerge. William will regularly recap those features and demonstrate how to incorporate them into your existing systems.
 
 ### Tailor the lessons.
 
@@ -84,11 +84,11 @@ Workshops will be available on demand in a library filterable by feature, functi
 
 ## Nutt Labs Circle
 
-Notion A-to-Z is part of Nutt Labs Circle, William’s membership for workshops, resources, and member benefits.
+<a href="https://circle.nutt.ai/notion-az" target="_blank" rel="noopener noreferrer">Notion A-to-Z</a> is part of Nutt Labs Circle, William’s membership for workshops, resources, and member benefits.
 
 ### Group Coaching
 
-William’s ongoing coaching programs for getting the most from modern tools, including Notion A-to-Z and AI Orchestration.
+William’s ongoing coaching programs for getting the most from modern tools, including <a href="https://circle.nutt.ai/notion-az" target="_blank" rel="noopener noreferrer">Notion A-to-Z</a> and AI Orchestration.
 
 ### Premium Resources
 
@@ -102,7 +102,7 @@ Save 15% on William’s personalized consulting for hands-on guidance with your 
 
 ## Reserve your Notion VIP Membership.
 
-Join the Founding Members of Nutt Labs Circle for a preferred annual rate and influence over the new Notion A-to-Z.
+Join the Founding Members of Nutt Labs Circle for a preferred annual rate and influence over the new <a href="https://circle.nutt.ai/notion-az" target="_blank" rel="noopener noreferrer">Notion A-to-Z</a>.
 
 ### Notion VIP Membership
 
@@ -122,7 +122,7 @@ Opens after the Notion VIP period.
 
 ### Teams
 
-Bring Notion A-to-Z to your team.
+Bring <a href="https://circle.nutt.ai/notion-az" target="_blank" rel="noopener noreferrer">Notion A-to-Z</a> to your team.
 
 [Contact William about team access]
 
@@ -130,7 +130,7 @@ Bring Notion A-to-Z to your team.
 
 ## Your Membership
 
-- Continuous Notion A-to-Z and AI Orchestration workshops, available on demand with AI summaries and timestamps.
+- Continuous <a href="https://circle.nutt.ai/notion-az" target="_blank" rel="noopener noreferrer">Notion A-to-Z</a> and AI Orchestration workshops, available on demand with AI summaries and timestamps.
 - All updates and adaptations of the Bulletproof framework.
 - Premium versions of William’s templates, agents, plugins, and tools.
 - 15% off William’s 1:1 consulting.
